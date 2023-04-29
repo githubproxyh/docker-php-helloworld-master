@@ -141,7 +141,7 @@ $n = [
 date_default_timezone_set("Asia/Shanghai");
 $date = date('YmdH');
 $timestamp = intval((time()-50)/10);
-$stream = 'http://dongfang5g-v5-live.bestvcdn.com.cn/live/program/live/'.$n[$id].'/'.$date.'/';
+$stream = 'http://113.250.21.179/liveplay-kk.rtxapp.com/live/program/live/'.$n[$id].'/'.$date.'/';
 $current = "#EXTM3U"."\r\n";
 $current.= "#EXT-X-VERSION:3"."\r\n";
 $current.= "#EXT-X-TARGETDURATION:3"."\r\n";
